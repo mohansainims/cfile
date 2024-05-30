@@ -1,0 +1,105 @@
+#include<stdio.h>
+int main()
+{
+    //print the multiple values
+    
+    int a,n;
+    float f;
+    char c;
+    printf("enter the value");
+    scanf("%d",&a);
+    printf("\nenter the float value");
+    scanf("%f",&f);
+    printf("\nenter the nagetive value");
+    scanf("%d",&n);
+    printf("\nenter the character value");
+    scanf(" %c",&c);
+    printf("%d %f %d %c",a,f,n,c);
+    
+    //print 34-5 user input
+    printf("\nresult of 34-5");
+    
+    int n1,n2;
+    printf("enter the first number");
+    scanf("%d",&n1);
+    printf("enter the second number");
+    scanf("%d",&n2);
+    int sub=n1-n2;
+    printf("%d",sub);
+    
+    //print the result 1+6+8+9 input from the user
+    printf("\nresult of 1+6_8+9");
+    
+    int c1,c2,c3,c4;
+    printf("\nenter the values");
+    scanf("%d%d%d%d",&c1,&c2,&c3,&c4);
+    int re=c1+c2+c3+c4;
+    printf("%d",re);
+    
+    //print the result 34+67+3+89+12 input from the user
+    printf("\nresult of 34+67+3+89+12");
+    
+    int d1,d2,d3,d4,d5;
+    printf("\nenter the values");
+    scanf("%d%d%d%d%d",&d1,&d2,&d3,&d4,&d5);
+    int s=d1+d2+d3+d4+d5;
+    printf("%d ",s);
+    
+    //print the result 34+(4*4)-8 input from the user
+    printf("\nresult of 34+(4*4)-8");
+    
+    
+   int e1,e2,e3;
+    printf("\nenter the values");
+    scanf("%d%d%d",&e1,&e2,&e3);
+    int res=e1+(e2*e2)-e3;
+    printf("%d",res); 
+    
+    
+    //print the result 3.1*6.7-(2.2*2.2)-5.4 input from the user
+    printf("\nresult of 3.1*6.7-(2.2*2.2)-5.4");
+    
+    float f1,f2,f3,f4;
+    printf("\nenter the values");
+    scanf("%f%f%f%f",&f1,&f2,&f3,&f4);
+    float r=f1*f2-(f3*f3)-f4;
+    printf("%f",r); 
+    
+    
+    //print the result 2.3-7+(3.4*6)-2.3/2 input from the user
+    printf("\nresult of 2.3-7+(3.4*6)-2.3/2");
+    
+   float g1,g2;
+    int h1,h2,h3;
+    printf("\nenter the float values");
+    scanf("%f%f",&g1,&g2);
+    printf("\nenter the integer number");
+    scanf("%d%d%d",&h1,&h2,&h3);
+    float fl=g1-h1+(g2*h2)-g1/h3;
+    printf("%f",fl); 
+    
+    
+    //print the result 23*2-9+34 input from the user
+    printf("\nresult of 23*2-9+34");
+    
+    
+   int i1,i2,i3,i4;
+    printf("\nenter the values");
+    scanf("%d%d%d%d",&i1,&i2,&i3,&i4);
+    int resu=i1*i2-i3+i4;
+    printf("%d",resu);
+    
+    
+    //print the result 4.5*7(2.3-2)+34.6 input from the user
+    printf("\nresult of 4.5*7(2.3-2)+34.6");
+    float j1,j2,j3;
+    int k,k1;
+    printf("\nenter the float values");
+    scanf("%f%f%f",&j1,&j2,&j3);
+    printf("\nenter the integer number");
+    scanf("%d%d",&k,&k1);
+    float ree=(j1*k)*(j2-k1)+j3;
+    printf("%f",ree);
+    
+    return 0;
+}
